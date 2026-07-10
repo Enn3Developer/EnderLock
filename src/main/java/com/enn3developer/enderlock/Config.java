@@ -1,4 +1,4 @@
-package com.myname.mymodid;
+package com.enn3developer.enderlock;
 
 import java.io.File;
 

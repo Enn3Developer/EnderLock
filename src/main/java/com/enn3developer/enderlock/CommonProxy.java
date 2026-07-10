@@ -1,4 +1,4 @@
-package com.myname.mymodid;
+package com.enn3developer.enderlock;
 
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
@@ -12,8 +12,8 @@ public class CommonProxy {
     public void preInit(FMLPreInitializationEvent event) {
         Config.synchronizeConfiguration(event.getSuggestedConfigurationFile());
 
-        MyMod.LOG.info(Config.greeting);
-        MyMod.LOG.info("I am MyMod at version " + Tags.VERSION);
+        EnderLock.LOG.info(Config.greeting);
+        EnderLock.LOG.info("I am EnderLock at version " + Tags.VERSION);
     }
 
     // load "Do your mod setup. Build whatever data structures you care about. Register recipes." (Remove if not needed)
