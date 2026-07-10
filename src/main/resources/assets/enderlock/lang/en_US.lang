@@ -1,0 +1,12 @@
+enderlock.trust.title.first=Unknown Server Encryption Key
+enderlock.trust.title.mismatch=WARNING: SERVER KEY CHANGED!
+enderlock.trust.server=Server: %s
+enderlock.trust.body.first=This is your first encrypted connection to this server. If the server administrator published a key fingerprint, verify that it matches the one below before connecting.
+enderlock.trust.body.mismatch=The server's encryption key does NOT match the key you trusted before. Someone could be intercepting your connection (man-in-the-middle attack), or the server administrator changed the key. Do NOT connect unless the administrator confirmed the new fingerprint.
+enderlock.trust.fingerprint=Key fingerprint (SHA-256):
+enderlock.trust.expected=Expected fingerprint (trusted earlier):
+enderlock.trust.received=Received fingerprint (from this connection):
+enderlock.trust.button.trust=Trust and Connect
+enderlock.trust.button.trustAnyway=Trust New Key Anyway
+enderlock.trust.button.disconnect=Disconnect
+enderlock.trust.connecting=Logging in...
